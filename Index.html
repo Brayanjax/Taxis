@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleweb.css">
+    <script src="https://kit.fontawesome.com/1782b73ad8.js" crossorigin="anonymous"></script>
+    <title>Taxis</title>
+</head>
+<body>
+<div id="header"> 
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header videocontacto.html">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#porfolio">Portafolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu"></i>
+            </nav>
+            <div class="header-text">
+                <p>Taxista</p>
+                <h2>Hola, Yo soy <span>Torres</span><br>Soy de <span>Costa Rica</span> <br><span>Dueño </span>de este <span>Servicio </span></h2>
+            </div>
+            
+        </div>
+        <span></span>
+ </div>
+ <!-------------------------------about----------------------------------------------------------------------------------------------------------------------------------------->
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/hermano-de-sharon.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-tittle">Sobre nosotros</h1>
+                <P>Somos taxistas durante los 10 años, hemos trabajado en la zona de guanacaste y gran parte del pais cubriendo de esquina a esquina para el servicio de nuestros  preciados clientes o turistas como usted</P>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Disponibilidad</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Articulos del vehiculo</p>
+                    <p class="tab-links" onclick="opentab('Education')">Servicio al cliente</p>
+                    <p class="tab-links" onclick="opentab('Historia del país')">Historia del País</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Aeropuertos</span><br>Contamos con 3 vehiculos para el acceso a los aeropuertos y se pueden contactar con ellos por medio de whatsaap</li>
+                        <li><span>Playas</span><br>Se puede transportar a las playas más bonitas de Guanacaste como Playa hermosa, Playa Grande entre otras</li>
+                        <li><span>Todo el país</span><br>Se tiene covertura a todo el país desde la capital de Guanacaste o la misma capital de costa Rica</li>
+                    </ul>
+                </div>
+                <div class="tab-contents "id="Experience">
+                    <ul>
+                        <li><span>Taxi 1</span><br>El vehiculo cuenta con aire acondicionado ademas de wifi, sistema de sonido, una pantalla en la parte frontal para poder ver peliculas o videos para el transcurso del viaje y el carro es moderno</li>
+                        <li><span>Taxi 2</span><br>El vehiculo cuenta con aire acondicionado ademas de wifi, sistema de sonido, una pantalla en la parte frontal para poder ver peliculas o videos para el transcurso del viaje y el carro es moderno</li>
+                        <li><span>Taxi 3</span><br>El vehiculo cuenta con aire acondicionado ademas de wifi, sistema de sonido, una pantalla en la parte frontal para poder ver peliculas o videos para el transcurso del viaje y el carro es moderno</li>
+                    </ul>
+                </div>
+                <div class="tab-contents"id="Education">
+                    <ul>
+                        <li><span>Trato al pasajero</span><br>El servicio tiene que ser por medio de reservacion por medio de whatsaap y el servicio trae extra que si el pasajero necestia hacer una parada para ir al baño ir a comprar algo o detenerse a comer no se le hara cargo extra al viaje,y el servicio es 100% comprometido y los trabajadores son amables y respetuosos</li>
+                        <li><span><H1>¡Extranjeros!</H1></span>En caso de ser extrangero de otro pais si se le pedira al cliente tener que pagar de antemano para el respeto que se merecen nuestros trabajadores<br></li>
+                    </ul>
+                </div>
+                <div class="tab-contents"id="Historia del país">
+                    <ul>
+                        <li><span><h2>25 de julio de 1824</h2></span><br>Es conocida por algunos como "la ciudad colonial de Costa Rica". Nicoya y todo el territorio del Guanacaste se anexaron por propia voluntad a Costa Rica el 25 de julio de 1824. La población para el censo del 2000 era de 13,334 habitantes en la ciudad y de 20,945 habitantes para el distrito correspondiente. Una de las edificaciones antiguas más sobresalientes, la iglesia parroquial ubicada en el parque de la localidad (Recaredo Briceño)</li>
+                        <li><span>2017</span><br>Designing web/app development</li>
+                        <li><span>2014</span><br>PINGAAAAAAAAAAAAAAAAAAAAAAAAA</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+ <!-------------------------------------------services---------------------->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-tittle">Mis servicios</h1>
+        <div class="services-list">
+            <div>
+                <h2>Disponibilidad</h2>
+                <i class="fa-solid fa-clock"></i>
+                <p>Trabajamos de 6 a.m a 7 p.m si es por cita con reserva a la hora que usted necesite</p>
+                <a href="#">Ver más</a>
+            </div>
+            <div>
+                <h2>Autos</h2>
+                <i class="fa-solid fa-car"></i>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis aliquid alias fugit quaerat, in nihil, et a consectetur dignissimos odio iure, dolorem similique. Explicabo laudantium ex ipsum optio alias ut!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>Zonas que cubrimos</h2>
+                <i class="fa-solid fa-earth-americas"></i>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis aliquid alias fugit quaerat, in nihil, et a consectetur dignissimos odio iure, dolorem similique. Explicabo laudantium ex ipsum optio alias ut!</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+ </div>
+
+ <!-------------------portfolio----------------------------->
+
+ <div id="porfolio">
+    <div class="container">
+        <h1 class="sub-tittle">Playas</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/playas/playita.jpg">
+                <div class="Layer">
+                    <h3>Social media</h3>
+                    <p>asdasdasdasdad</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/playas/playa-2.jpg">
+                <div class="Layer">
+                    <h3>Social Media App</h3>
+                    <p>srgfsdfksnmdfkmnsdkfmksmdkfmsdmfklsdmfklsfmsm</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/playas/playa-3.jpg">
+                <div class="Layer"> <h3>Social Media App</h3>
+                    <p>srgfsdfksnmdfkmnsdkfmksmdkfmsdmfklsdmfklmskdfmsm</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+               
+                  
+                
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-------------------------------------------contact-------------------------------------------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                    <h1 class="sub-tittle">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> contact@example.com</p>
+                    <p> <i class="fa-regular fa-phone"></i>0123456789</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-sharp fa-solid fa-link"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Dowload CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> Hecho por Brayan <i class="fa-solid fa-heart-pulse"></i>Y Arron</p>
+        <img src="" alt="">
+            
+    </div>
+</div>
+
+
+ <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+ </script>
+
+ <script>
+    var sidemeu= document.getElementById("sidemenu");
+
+
+    function openmenu(){
+        sidemeu.style.right= "0";
+
+    }
+    function closemenu(){
+        sidemeu.style.right= "-200px";
+        
+    }
+
+ </script>
+</body>
+</html>

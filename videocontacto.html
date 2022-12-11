@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoFondo</title>
+    <link rel="stylesheet" href="vidcont.css">
+</head>
+<body>
+    
+<div class="hero">
+
+    <video autoplay loop muted plays-inline id="backVideo">
+        <source src="imagesvid/video.mp4" type="video/mp4">
+    </video>
+
+    <img src="imagesvid/hamburger.png" class="menu-icon">
+
+    <div class="sidebar">
+        <div class="top-links">
+            <img src="imagesvid/arrow.png" class="arrow-icon">
+            <div>
+                <img src="imagesvid/audio.png" alt="">
+                <img src="imagesvid/link.png" alt="">
+
+            </div>
+        </div>
+        <h1>Kevin Torres</h1>
+        <h3>Guanacaste,Costa Rica</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio totam quos quasi dolorum assumenda inventore natus perferendis maiores iure. Sint fugit incidunt quidem culpa quos iusto. Possimus, omnis debitis. Molestiae!</p>
+        
+        <a href="Index.html">Más Detalles</a>
+    </div>
+
+    <img src="imagesvid/play.png" id="btn">
+
+
+</div>
+
+<script>
+    
+
+
+    let backVideo = document.getElementById("backVideo");
+    let btn = document.getElementById("btn");
+
+    btn.onclick = function(){
+        backVideo.style.display = "block";
+
+        if (backVideo.paused) {
+            backVideo.play();
+            btn.src = "imagesvid/pause.png"
+        } 
+        else {
+            backVideo.pause();
+            btn.src = "imagesvid/play.png"
+        }
+    }
+
+</script>
+
+</body>
+</html>
